@@ -2,8 +2,8 @@
 
 class topDownAnalyzer
 {
-    const INTEGER = '/^(0|[1-9]\d*)$/';
-    const FLOAT   = '/^(0|[1-9]\d*)?\.\d+$/';
+    const INTEGER = '/^-?(0|[1-9]\d*)$/';
+    const FLOAT   = '/^-?(0|[1-9]\d*)?\.\d+$/';
     
     /**
      * @var array
